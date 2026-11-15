@@ -181,7 +181,7 @@
       ],
       cityDelta: { BLR: 0, DEL: 3600, BOM: 2200 },
       stays: [
-        { id: 'maison', name: 'Maison Rose Heritage Villa', area: 'White Town, Pondicherry', rating: '4.8 · 130 reviews', price: 32000, fits: 5, img: 'pondy-street.svg', beach: '4 min to the promenade', amen: [['bed', '3 BR'], ['wifi', 'Wi-Fi'], ['utensils', 'Breakfast']], cancel: 'Free cancel until 10 Dec', pick: true },
+        { id: 'maison', name: 'Maison Rose Heritage Villa', area: 'White Town, Pondicherry', rating: '4.8 · 130 reviews', price: 32000, fits: 5, img: 'maison-rose', beach: '4 min to the promenade', amen: [['bed', '3 BR'], ['wifi', 'Wi-Fi'], ['utensils', 'Breakfast']], cancel: 'Free cancel until 10 Dec', pick: true },
         { id: 'seaside', name: 'Seaside Guesthouse', area: 'Promenade, Pondicherry', rating: '4.5 · 88 reviews', price: 26000, fits: 6, img: 'pondy', beach: 'Across from the sea', amen: [['bed', '4 BR'], ['wifi', 'Wi-Fi']], cancel: 'Free cancel until 9 Dec' }
       ],
       extras: [
