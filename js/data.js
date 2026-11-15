@@ -90,9 +90,9 @@
         { id: 'back', name: 'Backwater Houseboat', area: 'Alleppey, Kerala', rating: '4.7 · 120 reviews', price: 39500, fits: 5, img: 'kochi', beach: 'On the backwaters', amen: [['bed', '3 BR'], ['utensils', 'Chef on board']], cancel: 'Free cancel until 7 Dec' }
       ],
       extras: [
-        { id: 'cruiseK', name: 'Backwater cruise', day: 1, start: '15:00', end: '17:30', price: 500, img: 'kochi', sub: 'Sunset on the water', icon: 'waves' },
-        { id: 'walk', name: 'Fort Kochi heritage walk', day: 1, start: '09:00', end: '11:00', price: 280, img: 'jaipur', sub: 'Guided, two hours', icon: 'pin' },
-        { id: 'kathakali', name: 'Kathakali evening', day: 2, start: '18:30', end: '20:00', price: 400, img: 'music', sub: 'Traditional performance', icon: 'music' }
+        { id: 'cruiseK', name: 'Backwater cruise', day: 1, start: '15:00', end: '17:30', price: 500, img: 'houseboat', sub: 'Sunset on the water', icon: 'waves' },
+        { id: 'walk', name: 'Fort Kochi heritage walk', day: 1, start: '09:00', end: '11:00', price: 280, img: 'fortkochi', sub: 'Guided, two hours', icon: 'pin' },
+        { id: 'kathakali', name: 'Kathakali evening', day: 2, start: '18:30', end: '20:00', price: 400, img: 'kathakali', sub: 'Traditional performance', icon: 'music' }
       ]
     },
     jaipur: {
