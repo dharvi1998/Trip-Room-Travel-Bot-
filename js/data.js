@@ -172,7 +172,7 @@
       ]
     },
     pondicherry: {
-      id: 'pondicherry', name: 'Pondicherry', img: 'pondy.svg', code: 'PNY', airport: 'Puducherry', direct: true, road: 0,
+      id: 'pondicherry', name: 'Pondicherry', img: 'pondy', code: 'PNY', airport: 'Puducherry', direct: true, road: 0,
       vibes: ['Beach', 'Mix', 'City'], line: 'French streets and a sea promenade', weather: 'Warm, 27°C',
       roadNote: '',
       baseFlights: [
@@ -182,12 +182,12 @@
       cityDelta: { BLR: 0, DEL: 3600, BOM: 2200 },
       stays: [
         { id: 'maison', name: 'Maison Rose Heritage Villa', area: 'White Town, Pondicherry', rating: '4.8 · 130 reviews', price: 32000, fits: 5, img: 'pondy-street.svg', beach: '4 min to the promenade', amen: [['bed', '3 BR'], ['wifi', 'Wi-Fi'], ['utensils', 'Breakfast']], cancel: 'Free cancel until 10 Dec', pick: true },
-        { id: 'seaside', name: 'Seaside Guesthouse', area: 'Promenade, Pondicherry', rating: '4.5 · 88 reviews', price: 26000, fits: 6, img: 'pondy.svg', beach: 'Across from the sea', amen: [['bed', '4 BR'], ['wifi', 'Wi-Fi']], cancel: 'Free cancel until 9 Dec' }
+        { id: 'seaside', name: 'Seaside Guesthouse', area: 'Promenade, Pondicherry', rating: '4.5 · 88 reviews', price: 26000, fits: 6, img: 'pondy', beach: 'Across from the sea', amen: [['bed', '4 BR'], ['wifi', 'Wi-Fi']], cancel: 'Free cancel until 9 Dec' }
       ],
       extras: [
         { id: 'auroville', name: 'Auroville morning', day: 1, start: '08:30', end: '11:00', price: 300, img: 'spa.svg', sub: 'Matrimandir viewpoint and café', icon: 'pin' },
         { id: 'frenchwalk', name: 'French Quarter food walk', day: 1, start: '17:00', end: '19:00', price: 650, img: 'pondy-street.svg', sub: 'Five tastings, one guide', icon: 'utensils' },
-        { id: 'paddle', name: 'Sunrise paddle on the promenade', day: 2, start: '06:30', end: '08:30', price: 500, img: 'pondy.svg', sub: 'Stand-up paddle, with a coach', icon: 'waves' }
+        { id: 'paddle', name: 'Sunrise paddle on the promenade', day: 2, start: '06:30', end: '08:30', price: 500, img: 'pondy', sub: 'Stand-up paddle, with a coach', icon: 'waves' }
       ]
     }
   };
