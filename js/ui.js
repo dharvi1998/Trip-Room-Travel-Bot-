@@ -12,7 +12,7 @@
   /* ---------- small components ---------- */
   const UI = {};
   UI.E = E;
-  UI.img = function (n) { return 'url(assets/' + (/\.\w+$/.test(n) ? n : n + '.jpg') + '?v=5)'; };
+  UI.img = function (n) { return 'url(assets/' + (/\.\w+$/.test(n) ? n : n + '.jpg') + '?v=6)'; };
   UI.av = function (uid, size, extra) {
     const p = T.PEOPLE[uid];
     return '<span class="av av' + p.av + (extra ? ' ' + extra : '') + '" style="--s:' + (size || 32) + 'px" title="' + E(p.name) + '">' + E(p.name[0]) + '</span>';

@@ -111,7 +111,7 @@
       extras: [
         { id: 'amer', name: 'Amer Fort sunrise tour', day: 1, start: '07:00', end: '10:00', price: 450, img: 'fort', sub: 'Guided · skip-the-line entry', icon: 'pin' },
         { id: 'chokhi', name: 'Dinner at Chokhi Dhani', day: 1, start: '19:30', end: '22:00', price: 900, img: 'dinner', sub: 'Rajasthani thali and folk show', icon: 'utensils' },
-        { id: 'bazaar', name: 'Johari Bazaar walk', day: 2, start: '16:00', end: '18:00', price: 0, img: 'market', sub: 'Gems, textiles and chai', icon: 'pin' }
+        { id: 'bazaar', name: 'Johari Bazaar walk', day: 2, start: '16:00', end: '18:00', price: 0, img: 'market.svg', sub: 'Gems, textiles and chai', icon: 'pin' }
       ]
     },
     manali: {
@@ -147,9 +147,9 @@
         { id: 'mall', name: 'Mall Road Boutique Stay', area: 'Mussoorie', rating: '4.4 · 203 reviews', price: 29000, fits: 4, img: 'mussoorie-falls.svg', beach: '3 min to Mall Road', amen: [['bed', '2 BR'], ['wifi', 'Wi-Fi']], cancel: 'Free cancel until 10 Dec' }
       ],
       extras: [
-        { id: 'kempty', name: 'Kempty Falls visit', day: 1, start: '10:30', end: '13:00', price: 400, img: 'mussoorie-falls.svg', sub: 'Waterfall and picnic spot', icon: 'waves' },
-        { id: 'landourCafe', name: 'Landour café trail', day: 1, start: '15:30', end: '17:30', price: 350, img: 'cafe', sub: 'Three stops, one bakery', icon: 'utensils' },
-        { id: 'camel', name: 'Camel’s Back sunset', day: 2, start: '16:30', end: '18:00', price: 0, img: 'mussoorie', sub: 'Short walk, big views', icon: 'pin' }
+        { id: 'kempty', name: 'Kempty Falls visit', day: 1, start: '10:30', end: '13:00', price: 400, img: 'kempty', sub: 'Waterfall and picnic spot', icon: 'waves' },
+        { id: 'landourCafe', name: 'Landour café trail', day: 1, start: '15:30', end: '17:30', price: 350, img: 'landour', sub: 'Three stops, one bakery', icon: 'utensils' },
+        { id: 'camel', name: 'Camel’s Back sunset', day: 2, start: '16:30', end: '18:00', price: 0, img: 'camelback', sub: 'Short walk, big views', icon: 'pin' }
       ]
     },
     udaipur: {
@@ -168,7 +168,7 @@
       extras: [
         { id: 'pichola', name: 'Lake Pichola sunset boat', day: 0, start: '17:00', end: '18:30', price: 800, img: 'udaipur-boat.svg', sub: 'Private boat for the group', icon: 'waves' },
         { id: 'citypal', name: 'City Palace tour', day: 1, start: '10:00', end: '12:30', price: 700, img: 'udaipur.svg', sub: 'Guided, museum included', icon: 'pin' },
-        { id: 'cookU', name: 'Rajasthani cooking class', day: 2, start: '11:00', end: '13:30', price: 600, img: 'cafe', sub: 'Cook, then eat lunch', icon: 'utensils' }
+        { id: 'cookU', name: 'Rajasthani cooking class', day: 2, start: '11:00', end: '13:30', price: 600, img: 'cafe.svg', sub: 'Cook, then eat lunch', icon: 'utensils' }
       ]
     },
     pondicherry: {
