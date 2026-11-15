@@ -143,8 +143,8 @@
       ],
       cityDelta: { BLR: 0, DEL: -4200, BOM: -900 },
       stays: [
-        { id: 'oak', name: 'Oakwood Heritage Cottage', area: 'Landour, Mussoorie', rating: '4.8 · 119 reviews', price: 33000, fits: 5, img: 'mussoorie', beach: 'Forest ridge view', amen: [['bed', '3 BR'], ['wifi', 'Wi-Fi'], ['utensils', 'Fireplace']], cancel: 'Free cancel until 9 Dec', pick: true },
-        { id: 'mall', name: 'Mall Road Boutique Stay', area: 'Mussoorie', rating: '4.4 · 203 reviews', price: 29000, fits: 4, img: 'mussoorie-falls.svg', beach: '3 min to Mall Road', amen: [['bed', '2 BR'], ['wifi', 'Wi-Fi']], cancel: 'Free cancel until 10 Dec' }
+        { id: 'oak', name: 'Oakwood Heritage Cottage', area: 'Landour, Mussoorie', rating: '4.8 · 119 reviews', price: 33000, fits: 5, img: 'oakwood', beach: 'Forest ridge view', amen: [['bed', '3 BR'], ['wifi', 'Wi-Fi'], ['utensils', 'Fireplace']], cancel: 'Free cancel until 9 Dec', pick: true },
+        { id: 'mall', name: 'Mall Road Boutique Stay', area: 'Mussoorie', rating: '4.4 · 203 reviews', price: 29000, fits: 4, img: 'mallroad', beach: '3 min to Mall Road', amen: [['bed', '2 BR'], ['wifi', 'Wi-Fi']], cancel: 'Free cancel until 10 Dec' }
       ],
       extras: [
         { id: 'kempty', name: 'Kempty Falls visit', day: 1, start: '10:30', end: '13:00', price: 400, img: 'kempty', sub: 'Waterfall and picnic spot', icon: 'waves' },
