@@ -88,7 +88,7 @@
     const body = msgs.length ? msgs.map(function (m) {
       const tm = new Date(m.ts);
       const time = (tm.getHours() % 12 || 12) + ':' + (tm.getMinutes() < 10 ? '0' : '') + tm.getMinutes() + ' ' + (tm.getHours() >= 12 ? 'pm' : 'am');
-      const link = m.kind === 'invite' ? '<button type="button" class="wa-card" data-a="go" data-p="t.join"><span class="wa-img" style="background-image:' + UI.img('getaway.svg') + '"></span><span class="wa-c"><b>Join Ira’s December trip</b><small>cleartrip.com/room/dec-x7k2</small></span></button>' : '';
+      const link = m.kind === 'invite' ? '<button type="button" class="wa-card" data-a="go" data-p="t.join"><span class="wa-img" style="background-image:' + UI.img('getaway') + '"></span><span class="wa-c"><b>Join Ira’s December trip</b><small>cleartrip.com/room/dec-x7k2</small></span></button>' : '';
       const cta = m.cta && m.kind !== 'invite' ? '<button type="button" class="wa-cta" data-a="waGo" data-p="' + E(m.cta.screen) + '" data-q="' + E(JSON.stringify(m.cta.params || {})) + '">' + E(m.cta.label) + '</button>' : '';
       return '<div class="wa-b">' + link + '<p>' + E(m.text) + '</p>' + cta + '<span class="wa-tm">' + time + '</span></div>';
     }).join('') : '<div class="wa-empty">' + ic('message', 22) + '<b>No messages yet</b><p>When Ira shares the Trip Room, the invite arrives here.</p></div>';
@@ -105,7 +105,7 @@
     const t = T.store.get().trip;
     const going = t.order.filter(function (x) { return !t.members[x].out; });
     return '<div class="body">' + UI.top({ title: '', close: true }) +
-      '<div class="joinhero" style="background-image:' + UI.img('getaway.svg') + '"><span class="stack">' + going.slice(0, 5).map(function (x) { return UI.av(x, 34, 'ring'); }).join('') + '</span></div>' +
+      '<div class="joinhero" style="background-image:' + UI.img('getaway') + '"><span class="stack">' + going.slice(0, 5).map(function (x) { return UI.av(x, 34, 'ring'); }).join('') + '</span></div>' +
       '<h1 class="big c">Join Ira’s December trip</h1><p class="sub c">' + going.length + ' friends are planning ' + E(Q.datesInfo().short) + '</p>' +
       '<div class="card list">' +
       '<div class="mrow"><i class="pr-i">' + ic('clock', 18) + '</i><span class="crow-t"><b>Takes 30 seconds</b><small>Dates, budget and where you fly from</small></span></div>' +
