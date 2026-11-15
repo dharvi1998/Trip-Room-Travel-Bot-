@@ -128,9 +128,9 @@
         { id: 'orchard', name: 'Apple Orchard Cottage', area: 'Naggar, Kullu', rating: '4.6 · 77 reviews', price: 27500, fits: 6, img: 'orchard', beach: 'Orchard and valley view', amen: [['bed', '3 BR'], ['wifi', 'Wi-Fi']], cancel: 'Free cancel until 8 Dec' }
       ],
       extras: [
-        { id: 'solang', name: 'Solang Valley snow day', day: 1, start: '09:00', end: '14:00', price: 1100, img: 'manali-snow.svg', sub: 'Snow slides and cable car', icon: 'compass' },
-        { id: 'hadimba', name: 'Hadimba Temple walk', day: 1, start: '16:00', end: '17:30', price: 0, img: 'manali', sub: 'Cedar forest trail', icon: 'pin' },
-        { id: 'bonfireM', name: 'Bonfire and barbecue', day: 2, start: '19:30', end: '22:00', price: 500, img: 'music', sub: 'Riverside camp, live guitar', icon: 'utensils' }
+        { id: 'solang', name: 'Solang Valley snow day', day: 1, start: '09:00', end: '14:00', price: 1100, img: 'solang', sub: 'Snow slides and cable car', icon: 'compass' },
+        { id: 'hadimba', name: 'Hadimba Temple walk', day: 1, start: '16:00', end: '17:30', price: 0, img: 'hadimba', sub: 'Cedar forest trail', icon: 'pin' },
+        { id: 'bonfireM', name: 'Bonfire and barbecue', day: 2, start: '19:30', end: '22:00', price: 500, img: 'bonfirem', sub: 'Riverside camp, live guitar', icon: 'utensils' }
       ]
     },
     mussoorie: {

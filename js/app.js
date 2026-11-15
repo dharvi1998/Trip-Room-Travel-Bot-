@@ -15,7 +15,7 @@
   function shell() {
     const app = document.getElementById('app');
     app.innerHTML =
-      '<header class="bar-top"><div class="brand"><span class="brand-m">' + ic('compass', 18) + '</span><div><h1>Trip Room</h1><small>AI travel agent for Cleartrip · prototype · build 8</small></div></div>' +
+      '<header class="bar-top"><div class="brand"><span class="brand-m">' + ic('compass', 18) + '</span><div><h1>Trip Room</h1><small>AI travel agent for Cleartrip · prototype · build 9</small></div></div>' +
       '<div class="segc" role="group" aria-label="Which phones to show"><button type="button" data-v="both">' + ic('users', 14) + 'Both</button><button type="button" data-v="organiser">Organiser</button><button type="button" data-v="traveller">Traveller</button></div>' +
       '<button type="button" class="tbtn focus-btn" id="focusBtn">' + ic('search', 14) + 'Focus</button>' +
       '<button type="button" class="tbtn" id="dirBtn">' + ic('sliders', 14) + 'Demo controls</button></header>' +
