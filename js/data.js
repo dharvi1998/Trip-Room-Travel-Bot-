@@ -124,8 +124,8 @@
       ],
       cityDelta: { BLR: 0, DEL: -4300, BOM: -900 },
       stays: [
-        { id: 'cedar', name: 'Cedar Lodge', area: 'Old Manali', rating: '4.8 · 143 reviews', price: 30000, fits: 5, img: 'manali', beach: 'Riverside, pine forest', amen: [['bed', '3 BR'], ['wifi', 'Wi-Fi'], ['utensils', 'Kitchen']], cancel: 'Free cancel until 9 Dec', pick: true },
-        { id: 'orchard', name: 'Apple Orchard Cottage', area: 'Naggar, Kullu', rating: '4.6 · 77 reviews', price: 27500, fits: 6, img: 'manali-snow.svg', beach: 'Orchard and valley view', amen: [['bed', '3 BR'], ['wifi', 'Wi-Fi']], cancel: 'Free cancel until 8 Dec' }
+        { id: 'cedar', name: 'Cedar Lodge', area: 'Old Manali', rating: '4.8 · 143 reviews', price: 30000, fits: 5, img: 'cedar', beach: 'Riverside, pine forest', amen: [['bed', '3 BR'], ['wifi', 'Wi-Fi'], ['utensils', 'Kitchen']], cancel: 'Free cancel until 9 Dec', pick: true },
+        { id: 'orchard', name: 'Apple Orchard Cottage', area: 'Naggar, Kullu', rating: '4.6 · 77 reviews', price: 27500, fits: 6, img: 'orchard', beach: 'Orchard and valley view', amen: [['bed', '3 BR'], ['wifi', 'Wi-Fi']], cancel: 'Free cancel until 8 Dec' }
       ],
       extras: [
         { id: 'solang', name: 'Solang Valley snow day', day: 1, start: '09:00', end: '14:00', price: 1100, img: 'manali-snow.svg', sub: 'Snow slides and cable car', icon: 'compass' },
